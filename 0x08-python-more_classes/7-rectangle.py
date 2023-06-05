@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-
+"""7-rectangle, built for project 0x08 task 7.
+"""
 
 
 class Rectangle:
