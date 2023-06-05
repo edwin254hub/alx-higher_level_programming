@@ -2,6 +2,7 @@
 """4-rectangle, built for 0x08 task 4.
 """
 
+
 class Rectangle:
     """Takes in args for width and height of a rectangle, and contains methods
     for calculation of the area or perimeter.
