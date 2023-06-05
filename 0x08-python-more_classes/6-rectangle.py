@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""6-rectangle, built for project 0x08 task 6.
+"""
+
 
 class Rectangle:
     """Class for printing or computation of dimensions of a rectangle.
@@ -111,7 +114,7 @@ class Rectangle:
             (__height * 2).
 
         """
-        if self.__width is 0 or self.__height is 0:
+        if self.__width == 0 or self.__height == 0:
             return 0
         else:
             return (self.__width * 2) + (self.__height * 2)
@@ -162,4 +165,6 @@ class Rectangle:
         """Decrements `number_of_instances`, then prints message upon
         deletion of instance.
 
-
+        """
+        cls.number_of_instances -= 1
+        print('Bye rectangle...')
