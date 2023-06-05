@@ -1,6 +1,8 @@
 #!/usr/bin/python3
+
 """8-rectangle, built for project 0x08 task 8.
 """
+
 
 class Rectangle:
     """Class for printing or computation of dimensions of a rectangle.

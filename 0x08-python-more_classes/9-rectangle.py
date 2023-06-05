@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """9-rectangle, built for project 0x08 task 9.
 """
 
