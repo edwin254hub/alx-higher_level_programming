@@ -1,16 +1,16 @@
 #!/usr/bin/python3
-""" 0x0A. Python - Inheritance, task 1 """
+"""
+===========================
+Module with class MyList
+===========================
+"""
 
 
 class MyList(list):
-    """Custom list type intended to only contain integers.
-
-    """
+    """Class with method print_sorted"""
+    pass
 
     def print_sorted(self):
-        """Prints MyList lists in ascending order by value.
+        """Methot that sorted a list"""
 
-        """
-        sorted_list = self[:]
-        sorted_list.sort()
-        print(sorted_list)
+        print(sorted(list(self)))
