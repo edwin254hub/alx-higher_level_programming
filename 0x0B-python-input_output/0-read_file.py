@@ -1,7 +1,13 @@
 #!/usr/bin/python3
-def read_file(filename=""):
-    """function that reads a text file and prints it"""
+"""0x0B. Python - Input/Output, task 0. Read file """
 
-    with open(filename) as f:
-        text = f.read()
-        print(text, end="")
+
+def read_file(filename=""):
+    """Reads contents of a text file and print to stdout.
+
+    Args:
+        filename (str): name of file to be opened
+
+    """
+    with open(filename, encoding='utf-8') as file:
+        print(file.read(), end='')
