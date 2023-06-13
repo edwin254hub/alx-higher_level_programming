@@ -1,10 +1,15 @@
 #!/usr/bin/python3
-
-import json
+"""0x0B. Python - Input/Output, task 6. Create object from a JSON file  """
 
 
 def load_from_json_file(filename):
-    """function that creates an Object from JSON file"""
+    """Creates an object from a JSON file.
 
-    with open(filename) as f:
-        return json.loads(f.read())
+    Args:
+        filename (str): file containing serialized object string
+
+    """
+    import json
+
+    with open(filename, encoding='utf-8') as file:
+        return json.load(file)
