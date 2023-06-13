@@ -1,8 +1,14 @@
 #!/usr/bin/python3
+"""0x0B. Python - Input/Output, task 4. From JSON string to Object  """
 
-import json
 
+def from_json_string(my_str):
+    """Returns an object (Python data structure) represented by a JSON string.
 
-def to_json_string(my_obj):
-    """function that returns he JSON representation of an object(string)"""
-    return json.dumps(my_obj)
+    Args:
+        my_obj (any): object to be serialized
+
+    """
+    import json
+
+    return json.loads(my_str)
