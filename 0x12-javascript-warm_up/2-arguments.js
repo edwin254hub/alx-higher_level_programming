@@ -1,9 +1,13 @@
 #!/usr/bin/node
+// Check the number of arguments
+const numArguments = process.argv.length - 2;
 
-if (process.argv.length > 1) {
-  console.log('Arguments found');
-} else if (process.argv.length === 1) {
-  console.log('Argument found');
+// Print messages based on the number of arguments
+if (numArguments === 0) {
+  console.log("No argument");
+} else if (numArguments === 1) {
+  console.log("Argument found");
 } else {
-  console.log('No argument');
+  console.log("Arguments found");
 }
+
