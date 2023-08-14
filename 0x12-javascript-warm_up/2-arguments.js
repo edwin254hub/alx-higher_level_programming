@@ -2,9 +2,9 @@
 if (process.argv.length === 0) {
   console.log('No argument');
 }
-if (process.argv.length === 1) {
+else if (process.argv.length === 1) {
   console.log('Argument found');
 }
-if (process.argv.length > 1) {
+else {
   console.log('Arguments found');
 }
