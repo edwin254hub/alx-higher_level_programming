@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-
+"""
+9-model-state_filter_a module
+"""
 import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker

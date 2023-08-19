@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""adds the State object “California”
+with the City “San Francisco”
+to the database hbtn_0e_100_usa"""
 
 import sys
 from sqlalchemy import create_engine

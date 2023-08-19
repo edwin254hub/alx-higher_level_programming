@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+"""Definition of the State class with relationship to City"""
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
