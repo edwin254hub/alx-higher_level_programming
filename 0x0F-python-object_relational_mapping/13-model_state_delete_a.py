@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-
+"""
+13-model_state_delete_a
+"""
 import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
