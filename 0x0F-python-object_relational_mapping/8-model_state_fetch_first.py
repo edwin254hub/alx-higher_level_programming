@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-
+"""
+8-model_state_fetch_first module
+"""
 import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker

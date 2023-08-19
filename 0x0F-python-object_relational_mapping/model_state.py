@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-
+"""
+model_states module
+"""
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String
 
